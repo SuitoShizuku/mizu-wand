@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "ascent": 7,
+            "chars": [
+                "\uF001"
+            ],
+            "height": 8,
+            "file": "font/half.png"
+        }
+    ]
+}
