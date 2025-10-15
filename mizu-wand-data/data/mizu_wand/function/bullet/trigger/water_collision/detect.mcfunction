@@ -1,0 +1,2 @@
+execute positioned ~-0.95 ~-0.95 ~-0.95 if entity @s[dx=0,dy=0,dz=0] positioned ~0.9 ~0.9 ~0.9 if entity @s[dx=0,dy=0,dz=0] positioned ~0.05 ~0.05 ~0.05 positioned ^ ^ ^0.01 run return run function mizu_wand:bullet/trigger/water_collision/detect
+execute if entity @s[tag=water_bullet_summon_once] positioned ^ ^ ^0.4 run return run function mizu_wand:bullet/trigger/water_collision/summon

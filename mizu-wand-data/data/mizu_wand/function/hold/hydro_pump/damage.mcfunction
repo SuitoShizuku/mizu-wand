@@ -1,0 +1,1 @@
+damage @n[tag=hydro_pump_hit] 6 drown by @s from @s
