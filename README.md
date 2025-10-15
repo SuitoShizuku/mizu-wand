@@ -41,7 +41,7 @@ Minecraftを起動している場合、
 
 アメジストの欠片・ブリーズロッドのどちらかを獲得した時にレシピが解放されます。
 
-![杖のレシピ](./.description/recipe.png)
+![杖のレシピ](https://drive.google.com/file/d/1SKDJ62vZpvaQiYxpvOaEFwrBuOF1Y4BQ/view)
 
 ## マナについて
 マナとは当データパックにおいて魔法を使うためのエネルギーです。
