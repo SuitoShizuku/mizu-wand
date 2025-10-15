@@ -1,0 +1,227 @@
+{
+    "function": "set_lore",
+    "lore": [
+        {
+            "text": "属性: ",
+            "extra": [
+                {
+                    "text": "紫",
+                    "color": "light_purple",
+                    "bold": true
+                }
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "属性切り替え",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 青",
+            "color": "dark_aqua",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.attack",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": " 白",
+            "color": "white",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.use",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": "エンダーバレット",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.attack"
+                },
+                "] -----"
+            ],
+            "color": "light_purple",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "果て。",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " ダメージ: \uF0016",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 弾速: 速",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 飛距離: 16Block",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 死線",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   発射点から5Block毎にダメージ\uF001+1.5",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 破裂",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   15Block以上の場合ダメージ\uF001+3.5",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 12",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "リバース",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.use"
+                },
+                "] -----"
+            ],
+            "color": "light_purple",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "輪廻",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 現在のマナをすべて消費して、",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " マナ上限をリセットする。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 同時に魔法の杖は硬化する。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 硬化した魔法の杖は以下の強化を受ける",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費したマナの5%分攻撃力がアップ、",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費したマナの2%分採掘速度がアップ",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 硬化した杖の攻撃力: \uF0011",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 硬化した杖の耐久力: 1",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: すべて",
+            "color": "gray",
+            "italic": false
+        }
+    ],
+    "mode": "replace_all",
+    "entity": "this"
+}

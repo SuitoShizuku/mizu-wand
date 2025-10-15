@@ -1,0 +1,212 @@
+{
+    "function": "set_lore",
+    "lore": [
+        {
+            "text": "属性: ",
+            "extra": [
+                {
+                    "text": "白",
+                    "color": "white",
+                    "bold": true
+                }
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "属性切り替え",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 紫",
+            "color": "light_purple",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.attack",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": " 赤",
+            "color": "red",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.use",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": "マナバレット",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.attack"
+                },
+                "] -----"
+            ],
+            "color": "white",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "純粋なマナの塊",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " ダメージ: \uF0012",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 弾速: 遅",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 飛距離: 10Block",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 貫通",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   敵・防御力・クリエイティブモード",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   を貫通してダメージを与える。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 灯火",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   経路上を1.5秒間灯す。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   明かりは徐々に暗くなる。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 2",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "マナシールド",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.use"
+                },
+                "] -----"
+            ],
+            "color": "white",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "マナを凝結する",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 魔法陣を足元に描く。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 1秒に1回、魔法陣上のエンティティ",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " は耐性IVを1分間獲得する",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 25",
+            "color": "gray",
+            "italic": false
+        }
+    ],
+    "mode": "replace_all",
+    "entity": "this"
+}

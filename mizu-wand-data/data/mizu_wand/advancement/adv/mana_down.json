@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": "?????",
+    "description": "マナ上限を減らす",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mizu_wand:adv/no_mana",
+  "criteria": {
+    "n": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "n"
+    ]
+  ]
+}

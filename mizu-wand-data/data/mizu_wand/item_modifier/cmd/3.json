@@ -1,0 +1,11 @@
+[{
+    "function": "set_custom_model_data",
+    "floats": {
+        "mode": "replace_all",
+        "values": [3.0]
+    }
+},
+{
+    "function": "reference",
+    "name": "mizu_wand:lore/3"
+}]

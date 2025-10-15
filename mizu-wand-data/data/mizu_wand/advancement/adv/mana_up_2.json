@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_amethyst_bud"
+    },
+    "title": "心得",
+    "description": "マナ上限が500に到達する",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mizu_wand:adv/mana_up_1",
+  "criteria": {
+    "n": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "n"
+    ]
+  ]
+}

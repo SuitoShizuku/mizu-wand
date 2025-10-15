@@ -1,0 +1,107 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "mizu_wand:wand",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "magic.mana",
+          "scale": 0.05
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "mizu_wand:wand_change_ct",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "mizu_wand:wand_entity_interact",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:mining_efficiency",
+        "id": "mizu_wand:hard",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "magic.mana",
+          "scale": 0.02
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_name": "硬化した魔法の杖",
+      "minecraft:custom_data": {
+        "mizu_wand": true
+      },
+      "minecraft:custom_model_data": {
+        "floats": [
+          4
+        ],
+        "strings": [
+          "mizu_wand"
+        ]
+      },
+      "rarity": "epic",
+      "max_damage": 1,
+      "damage": 0,
+      "!minecraft:consumable": {},
+      "!food": {},
+      "!use_effects": {},
+      "!minecraft:piercing_weapon": {},
+      "!minecraft:swing_animation": {},
+      "!minecraft:kinetic_weapon": {},
+      "!tooltip_display": {}
+    }
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "魔法は使えないだろう。",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "mizu_wand:hard": 1,
+      "mizu_wand:lc": 0,
+      "mizu_wand:shift_lc": 0
+    },
+    "add": false
+  }
+]

@@ -1,0 +1,244 @@
+{
+    "function": "set_lore",
+    "lore": [
+        {
+            "text": "属性: ",
+            "extra": [
+                {
+                    "text": "赤",
+                    "color": "red",
+                    "bold": true
+                }
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "属性切り替え",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 白",
+            "color": "white",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.attack",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": " 青",
+            "color": "dark_aqua",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.use",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": "フレイムバレット",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.attack"
+                },
+                "] -----"
+            ],
+            "color": "red",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "焦熱弾",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " ダメージ: \uF0015",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 弾速: 並",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 飛距離: 11Block",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 燃焼",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   一定時間燃焼する",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 5",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "フレイムバースト",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.use"
+                },
+                "] -----"
+            ],
+            "color": "red",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "燃焼連撃",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 0.55秒毎にファイアショットを放つ",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 20/s",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "フレイムショット",
+            "extra": [
+                " -----"
+            ],
+            "color": "red",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "灼熱弾",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 後方のランダムな場所に魔法陣を",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 生成し、指定の方向にダメージを与える",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " ダメージ: \uF0016",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 弾速: 速",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 飛距離: 11Block",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 蒸発",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   水に触れている場合ダメージ×1.5",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 6",
+            "color": "gray",
+            "italic": false
+        }
+    ],
+    "mode": "replace_all",
+    "entity": "this"
+}

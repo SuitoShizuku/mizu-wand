@@ -1,0 +1,202 @@
+{
+    "function": "set_lore",
+    "lore": [
+        {
+            "text": "属性: ",
+            "extra": [
+                {
+                    "text": "青",
+                    "color": "dark_aqua",
+                    "bold": true
+                }
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "属性切り替え",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 赤",
+            "color": "red",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.attack",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": " 紫",
+            "color": "light_purple",
+            "italic": false,
+            "bold": true,
+            "extra": [
+                {
+                    "text": " 属性 → [",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.sneak",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]+[",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "keybind": "key.use",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "]",
+                    "color": "gray",
+                    "bold": false
+                }
+            ]
+        },
+        {
+            "text": "ウォーターバレット",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.attack"
+                },
+                "] -----"
+            ],
+            "color": "dark_aqua",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "水鉄砲",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " ダメージ: \uF0017",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 弾速: 遅",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 飛距離: 6Block",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 特性: 蒸発",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "   燃焼状態の場合ダメージ×1.5",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 7",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "ハイドロポンプ",
+            "extra": [
+                " [",
+                {
+                    "keybind": "key.use"
+                },
+                "] -----"
+            ],
+            "color": "dark_aqua",
+            "italic": false,
+            "bold": true
+        },
+        {
+            "text": "「",
+            "extra": [
+                {
+                    "text": "水大砲",
+                    "color": "gray",
+                    "italic": true
+                },
+                "」"
+            ],
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 魔法陣を描く。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 0.75秒間魔法陣を描くとマナを",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 織って作った水を放出する。",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " ダメージ: \uF0016",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 飛距離: 8Block",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": " 消費マナ: 100/s",
+            "color": "gray",
+            "italic": false
+        }
+    ],
+    "mode": "replace_all",
+    "entity": "this"
+}

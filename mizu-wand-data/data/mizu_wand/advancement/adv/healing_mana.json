@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:small_amethyst_bud"
+    },
+    "title": "マナ補給",
+    "description": "食事からマナを回復する",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mizu_wand:adv/no_mana",
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "#mizu_wand:healing_food"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eat"
+    ]
+  ]
+}

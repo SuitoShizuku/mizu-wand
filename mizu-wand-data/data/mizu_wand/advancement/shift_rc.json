@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "lc": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "input": {
+              "sneak": true
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:stone_pickaxe",
+          "predicates": {
+            "custom_data": {
+              "mizu_wand":true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mizu_wand:actions/shift_rc"
+  }
+}

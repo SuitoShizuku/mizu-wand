@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "enchanted_golden_apple"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "consume"
+    ]
+  ],
+  "rewards": {
+    "function": "mizu_wand:mana/heal/consume_gapple"
+  }
+}

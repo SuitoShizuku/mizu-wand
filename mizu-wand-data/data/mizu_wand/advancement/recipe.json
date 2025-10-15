@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "checkItem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:breeze_rod",
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "checkItem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mizu_wand:wand"
+    ]
+  }
+}
